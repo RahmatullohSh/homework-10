@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  height: 750px;
+
+  margin-left: 40px;
+}
+
+.ul_list {
+  list-style-type: none;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 54px;
+  margin-left: 940px;
+}
+
+.li_item:nth-child(2) a {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  color: #5fb4a2;
+  text-decoration: none;
+}
+
+.li_item:nth-child(1) a {
+  text-decoration: none;
+  color: #33323d;
+}
+
+.li_item:nth-child(3) a {
+  text-decoration: none;
+  color: #33323d;
+}
+
+.header_section {
+  display: flex;
+  position: relative;
+  width: 1015px;
+  height: 540px;
+  left: 265px;
+  top: 90px;
+}
+
+.header_section_image {
+  width: 540px;
+  height: 540px;
+
+  background: #ffefec;
+  background-image: url("../images_q/Porto_1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.header_section_card {
+  width: 350px;
+  height: 500px;
+
+  left: 49px;
+  top: 29px;
+  position: relative;
+}
+
+.header_section_card_title {
+  position: relative;
+  height: 42px;
+  left: 0%;
+  right: 0%;
+  top: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  color: #33323d;
+}
+
+.header_section_card_text {
+  position: relative;
+  height: 150px;
+  left: 0%;
+  right: 0%;
+  width: 310px;
+  top: 28px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  opacity: 0.8;
+}
+
+.header_section_card_button {
+  background: #f2f2f2;
+  border: 1px solid #33323d;
+  position: relative;
+  top: 60px;
+  width: 175px;
+  height: 48px;
+}
+
+.main_container {
+  width: 1440px;
+  height: 1990px;
+
+  margin-left: 40px;
+  margin-top: 49px;
+}
+
+.section_first {
+  width: 1015px;
+  height: 500px;
+
+  position: relative;
+  left: 260px;
+  top: 50px;
+  display: flex;
+}
+
+.section_first_card {
+  width: 350px;
+  height: 500px;
+}
+
+.section_first_card_title {
+  position: absolute;
+  height: 42px;
+  left: 1px;
+  right: 0%;
+  top: 102px;
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  color: #33323d;
+}
+
+.section_first_card_text {
+  position: relative;
+  height: 150px;
+  left: 1px;
+  right: 1px;
+  top: 170px;
+  width: 310px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  opacity: 0.8;
+}
+
+.section_first_card_button {
+  background: #f2f2f2;
+  border: 1px solid #33323d;
+  position: relative;
+  top: 210px;
+  width: 175px;
+  height: 48px;
+}
+
+.section_first_image {
+  margin-left: 125px;
+  border: 50px solid #4f63d8;
+  background: #4f63d8;
+}
+
+.section_second {
+  width: 1015px;
+  height: 500px;
+
+  position: relative;
+  left: 260px;
+  top: 120px;
+  display: flex;
+}
+
+.section_second_image {
+  width: 540px;
+  height: 500px;
+
+  background: #9a99ab;
+  padding: 54px;
+}
+
+.section_second_card {
+  width: 350px;
+  height: 500px;
+
+  margin-left: 70px;
+}
+
+.section_second_card_title {
+  position: relative;
+  height: 42px;
+  left: 0%;
+  right: 0%;
+  top: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  color: #33323d;
+}
+
+.section_second_card_text {
+  position: relative;
+  height: 150px;
+  left: 1px;
+  right: 1px;
+  top: 90px;
+  width: 294px;
+  height: 150px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  opacity: 0.8;
+}
+
+.section_second_card_button {
+  position: relative;
+  height: 14px;
+  left: 1px;
+  right: 20.57%;
+  top: 150px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid #33323d;
+  color: #33323d;
+  width: 175px;
+  height: 48px;
+}
+
+.section_third {
+  width: 1015px;
+  height: 500px;
+
+  position: relative;
+  left: 260px;
+  top: 160px;
+  display: flex;
+}
+
+.section_third {
+  width: 1015px;
+  height: 510px;
+}
+
+.section_third_card {
+  width: 350px;
+  height: 500px;
+  position: relative;
+}
+
+.section_third_card_title {
+  position: relative;
+  height: 42px;
+  left: 1px;
+  right: 1px;
+  top: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  color: #33323d;
+}
+
+.section_third_card_text {
+  width: 329px;
+  height: 150px;
+  position: relative;
+  height: 150px;
+  left: 2px;
+  top: 90px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  opacity: 0.8;
+}
+
+.section_third_card_button {
+  position: relative;
+  height: 14px;
+  left: 1px;
+  right: 20.57%;
+  top: 150px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid #33323d;
+  color: #33323d;
+  width: 175px;
+  height: 48px;
+}
+
+.section_third_image {
+  border: 54px solid #41b4d3;
+  margin-left: 125px;
+  width: 540px;
+  height: 500px;
+  padding-top: -40px;
+}
+
+.section_fourth {
+  width: 1110px;
+  height: 84px;
+  position: relative;
+
+  top: 290px;
+  left: 165px;
+}
+
+.section_fourth_title {
+  position: relative;
+  height: 84px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  color: #33323d;
+  width: 350px;
+}
+
+.section_fourth_button {
+  border: 1px solid #33323d;
+  position: relative;
+  left: 910px;
+  top: -67px;
+  width: 162px;
+  height: 48px;
+}
+
+.footer {
+  width: 1440px;
+  height: 80px;
+
+  margin-left: 40px;
+  background: #33323d;
+}
+
+.footer_ul_list {
+  width: 309px;
+  height: 14px;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  position: relative;
+  top: 29px;
+  color: #ffffff;
+  left: 274px;
+}
+
+.footer_li_item a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
+
